@@ -1,7 +1,7 @@
 				Open the Door
 				By C3pa
 
-Version: 1.0
+Version: 1.1
 
 _________
 Contents
@@ -24,7 +24,7 @@ ____________
 Description
 ____________
 
-
+This mod will automatically open the door you are looking at if it's within activation distance.
 All of the mod's features can be configured in the mod configuration menu.
 
 ____________
@@ -36,7 +36,9 @@ ____________
 Changelog
 ____________
 1.0
-Initial Release
+Initial Release.
+1.1
+Bugfix: Don't show the door is locked messages for locked chests.
 
 ________
 Contact

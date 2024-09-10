@@ -128,6 +128,8 @@ local function onTargetChanged(e)
 
 	local lockNode = ref.lockNode
 	if lockNode then
+		-- Skip locked chests
+		if not isDoor(ref) then return end
 		if lockNode.trap and config.skipTrapped then
 			if config.showMessages then
 				tes3.messageBox(table.choice(messages.trapped))
